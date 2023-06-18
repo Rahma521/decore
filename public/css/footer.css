@@ -1,0 +1,179 @@
+.newsletter {
+    margin: 90px 0px;
+} 
+.img_newsletter {
+    text-align: center;
+    height: 255px;
+    margin: auto;
+    background-image: url(../images/Shape.png);
+    width: 73%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0px ;
+}
+
+.img_newsletter .lottie3 {
+    width: 30%;
+    margin: 20px 0px 10px ;
+    display: block;
+}
+.img_newsletter h2 {
+    font-size: 36px;
+    font-family: "font_bold";
+    color: #965F44;
+}
+
+.img_newsletter p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #000;
+}
+
+.input_newsletter {
+    position: relative;
+    width: 58%;
+    margin: 20px auto;
+}
+
+.input_newsletter input:focus{
+    box-shadow: none;
+    border: 1px solid #D2B59E;
+}
+.form-control{
+    border: 1px solid #D2B59E;
+    height: 55px;
+    border-radius: 40px;
+    
+}
+.input_newsletter  .form-control{
+    padding: 0px 50px 0px 150px;
+}
+.input_newsletter i{
+    position: absolute;
+    right: 20px;
+    font-size: 22px;
+    color: #9B9B9B;
+    top: 14px ;
+}
+.input_newsletter button{
+    background: #F3E4D8;
+    color: #965F44;
+    transition: all ease-in-out .5s;
+    width: 170px;
+    height: 45px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    border: none;
+    border-radius: 30px;
+}
+.input_newsletter button:hover{
+    background: #965F44;
+    color: #fff;
+}
+
+.footer {
+    background-image: url(../images/f1.png);
+    height: 297px;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.elemet_footer {
+    margin-top:120px  ;
+}
+.elemet_footer ul li{
+    margin: 10px 0px ;
+    position: relative;
+    padding: 0px 20px 0px 0px;
+    list-style-type: none;
+    transition: all ease-in-out .3s;
+}
+
+.elemet_footer ul li a{
+    color: #965F44;
+}
+.elemet_footer ul li:hover {
+    transform: translateX(-20px);
+    transition: all ease-in-out .3s;
+}
+.elemet_footer ul li:hover a{
+    color: #D2B59E;
+}
+
+.elemet_footer ul li::before {
+    content: "";
+    width: 11px;
+    background: #965F44;
+    height: 1px;
+    position: absolute;
+    display: block;
+    right: 0px;
+    top: 14px;
+}
+
+.elemet_footer p {
+    margin-top: 30px;
+    color: #965F44;
+    font-size: 14px;
+}
+
+.center_footer {
+    text-align: center;
+    margin: 50px 0px 0px ;
+}
+
+.links_footer {
+    margin: 120px 58px 0px 0px;
+}
+
+.links_footer ul li{
+    transition: all ease-in-out .3s;
+    margin: 10px 0px ;
+    list-style-type: none
+}
+.links_footer ul li i{
+    margin:0px 2px ;
+    display: inline-block;
+    vertical-align: middle;
+}
+.links_footer ul li a{
+    color: #965F44;
+}
+.links_footer p a {
+    color: #965F44;
+}
+
+.links_footer ul li:hover{
+    transform: translateX(-20px);
+    transition: all ease-in-out .3s;
+}
+.links_footer ul li:hover a{
+    color: #D2B59E;
+}
+.links_footer p a:hover{
+    color: #D2B59E;
+}
+
+.links_footer  p{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.links_footer  p i{
+    color: #ff0000;
+}
+
+.center_footer .sub_media_header {
+    margin: 40px 0px 0px;
+}
+
+.center_footer .sub_media_header ul li:hover {
+	box-shadow: 0 0 0 8px #fff;
+
+}
+.footer_logo {
+    max-width: 30%;
+    margin: auto;
+}

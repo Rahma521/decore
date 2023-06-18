@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "font_main";
+    src: url(../fonts/Tajawal-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "font_bold";
+    src: url(../fonts/Tajawal-Bold.ttf);
+  }
+  @font-face {
+    font-family: "font_medium";
+    src: url(../fonts/Tajawal-Medium.ttf);
+  }
+  
+  * {
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  
+
+  html {
+    --scrollbarBG: #F3E4D8;
+    --thumbBG: #965F44;
+  }
+
+
+  *:focus {
+    outline: none;
+  }
+  button:focus,
+  a {
+    outline: none;
+  }
+  
+  a {
+    color: #3D3D3D ;
+    text-decoration: none !important;
+  }
+  
+  ul {
+    margin: auto;
+    padding: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  input,
+  button {
+    font-family: "font_main";
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  h3 {
+    font-size: 16px;
+  }
+  
+  h4 {
+    font-size: 15px;
+  }
+  
+  a,
+  button,
+  img,
+  .form-control {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  ::selection {
+    color: #4A4A4A  !important;
+    background-color: #FFEDC1 !important;
+  }
+  
+  body {
+    background: #fff;
+    font-family: "font_main";
+    padding: 0;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    color: #3D3D3D;
+ 
+  }
+    
+  
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 0px;
+    border: 0px solid var(--scrollbarBG);
+  }
+  
+  
+  
+  body::-webkit-scrollbar {
+    width: 11px;
+  }
+
+ 
